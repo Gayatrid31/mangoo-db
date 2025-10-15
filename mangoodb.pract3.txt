@@ -75,7 +75,7 @@ demo1> db.emp.find();
   {
     _id: ObjectId('68e6342dd45f30b62ecebea4'),
     empid: 101,
-    ename: 'prajakta',
+    ename: 'gayatri',
     salary: 77000,
     dept: 'cs'
   },
@@ -89,7 +89,7 @@ demo1> db.emp.find();
   {
     _id: ObjectId('68e6345fd45f30b62ecebea6'),
     empid: 103,
-    ename: 'pranat',
+    ename: 'sandesh',
     salary: 80000,
     dept: 'IT'
   },
@@ -120,14 +120,14 @@ demo1> db.emp.find().sort({ename:1});
   {
     _id: ObjectId('68e6342dd45f30b62ecebea4'),
     empid: 101,
-    ename: 'prajakta',
+    ename: 'gayatri',
     salary: 77000,
     dept: 'cs'
   },
   {
     _id: ObjectId('68e6345fd45f30b62ecebea6'),
     empid: 103,
-    ename: 'pranat',
+    ename: 'sandesh',
     salary: 80000,
     dept: 'IT'
   }
@@ -137,14 +137,14 @@ demo1> db.emp.find().sort({ename:-1});
   {
     _id: ObjectId('68e6345fd45f30b62ecebea6'),
     empid: 103,
-    ename: 'pranat',
+    ename: 'sandesh',
     salary: 80000,
     dept: 'IT'
   },
   {
     _id: ObjectId('68e6342dd45f30b62ecebea4'),
     empid: 101,
-    ename: 'prajakta',
+    ename: 'gayatri',
     salary: 77000,
     dept: 'cs'
   },
